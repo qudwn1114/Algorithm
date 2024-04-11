@@ -4,3 +4,5 @@ for i in str:
         print(i.upper(), end="")
     else:
         print(i.lower(), end="")
+
+# str.swapcase() #대소문자변경
