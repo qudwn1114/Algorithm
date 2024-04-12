@@ -44,6 +44,8 @@ def solution(data, ext, val_ext, sort_by):
                 next_data = j
         min = next_num
         answer.append(next_data)
+    ## sort함수 이용한 정렬
+    # temp.sort(key=lambda x: (x[sort_num]))
 
     return answer
 
